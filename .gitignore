@@ -1,0 +1,44 @@
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+vendor/
+go.work
+go.work.sum
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node / Bun
+node_modules/
+.npmrc
+
+# SvelteKit
+.svelte-kit/
+build/
+
+# Data
+data/
+raw_data/
+*.duckdb
+*.duckdb.wal
+
+# Env
+.env
+.envrc
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Claude Code
+.claude/
